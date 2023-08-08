@@ -15,6 +15,16 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
+    "repository": "https://github.com/Darklightning2008/Stylish-Text-Bot",
+   "stack": "heroku-22",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
